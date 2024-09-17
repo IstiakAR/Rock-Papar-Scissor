@@ -1,0 +1,163 @@
+html,
+body {
+  height: 100%;
+  background: #FFD580;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FFD580;
+  gap: 40px;
+}
+
+.title {
+  margin-top: 12%;
+  margin-bottom: 4%;
+}
+
+.title img {
+  width: 300px;
+  height: 200px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  height: 20%;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+#modePVP,
+#modePVB {
+  display: flex;
+  font-size: 45px;
+  height: 85%;
+  min-height: 150px;
+  padding-right: 15px;
+  aspect-ratio: 1/1;
+  background: #CFFF04;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+.PVB,
+.PVP {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #FFD580;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#score {
+  margin-top: 10%;
+  font-size: 40px;
+  color: #301010;
+  font-weight: bold;
+}
+
+.upperText {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 8vh;
+  margin-bottom: 14vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upperTextPVP {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 6vh;
+  margin-bottom: 8vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#playerchoice,
+#botchoice,
+#roundResult,
+#player1choice,
+#player2choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  gap: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #301010;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#roundResult {
+  width: 40%;
+  font-size: 28px;
+}
+
+#playerchoiceimage,
+#player1choiceimage,
+#player2choiceimage,
+#botchoiceimage {
+  font-size: 150px;
+}
+
+.contorls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* 
+#controlText {
+  display: flex;
+  font-size: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-bottom: -2px;
+  margin-top: -2px;
+  font-size: 20px;
+}
+*/
